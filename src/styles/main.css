@@ -1,11 +1,17 @@
+
+body {
+margin: 50px 50px 0 0;
+}
 ul.foodList {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 li {
     border: 1px solid brown;
     list-style-type: none;
     padding: 0 5px;
+    margin: 0 10px;
+    width: 250px;
 }
 li > h1 {
     text-align: center;
