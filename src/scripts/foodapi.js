@@ -36,7 +36,7 @@ fetch("http://localhost:8088/food")
             fetch("https://world.openfoodfacts.org/api/v0/product/${food}.json")
                 .then(resp => resp.json())
                 .then(productInfo => {
-                    if (productInfo.product.ingredients_text, if (productInfo.product.ingredients_text) {
+                    if (productInfo.product.ingredients_text, productInfo.product.ingredients_text) {
                         food.ingredients = productInfo.product.ingredients_text;
                     } else {
                         food.ingredients = "no ingredients listed";
